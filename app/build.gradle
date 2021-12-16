@@ -14,7 +14,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mplr.hackernews"
+        applicationId "com.dipand.hackernews"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
@@ -36,7 +36,7 @@ android {
 
     productFlavors {
         dev {
-            applicationId "com.mplr.hackernews.dev"
+            applicationId "com.dipand.hackernews.dev"
             minSdkVersion 24
             targetSdkVersion 30
             testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
@@ -44,7 +44,7 @@ android {
             versionName '1.0'
         }
         prod {
-            applicationId "com.mplr.hackernews.prod"
+            applicationId "com.dipand.hackernews.prod"
             minSdkVersion 24
             targetSdkVersion 30
             testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
